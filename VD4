@@ -1,0 +1,31 @@
+# Clone the repository if you haven't already
+git clone https://github.com/Viacheslav86/my-repo.git
+cd my-repo
+
+# 1. Create file1.txt and commit
+echo "hello 1" > file1.txt
+git add file1.txt
+git commit -m "hello 1"
+
+# 2. Create file2.txt and commit
+echo "hello 2" > file2.txt
+git add file2.txt
+git commit -m "hello 2"
+
+# 3. Create file3.txt and commit
+echo "hello 3" > file3.txt
+git add file3.txt
+git commit -m "hello 3"
+
+# 4. Create file4.txt and commit
+echo "hello 4" > file4.txt
+git add file4.txt
+git commit -m "hello 4"
+
+# 5. Create file5.txt and commit
+echo "hello5" > file5.txt
+git add file5.txt
+git commit -m "hello5"
+
+# Push the changes to GitHub
+git push origin main
